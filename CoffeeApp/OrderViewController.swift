@@ -17,6 +17,7 @@ class OrderViewController: UIViewController, UITableViewDelegate, UITableViewDat
     var names = ["Flat White", "Cappucino", "Black Coffee"]
     var descriptions = ["A very tasty flat white", "Delicious cappucino", "Freshly brewed black coffee"]
     var amounts = ["$4", "$3", "$2.50"]
+    var coffees = ["cof","cof3","cof2"]
     
     
     
@@ -45,15 +46,40 @@ class OrderViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.orderButton.layer.borderWidth = 3
         cell.orderButton.layer.borderColor = UIColor.brown.cgColor
         cell.cellView.layer.cornerRadius = 10
+        cell.coffeeImage.image = UIImage(named: coffees[indexPath.row])
         
         return cell
     }
 
     @IBAction func orderButton(_ sender: Any) {
-        let vc = storyboard?.instantiateViewController(withIdentifier: "OrderSuccessfulViewController") as! OrderSuccessfulViewController
+        let vc = storyboard?.instantiateViewController(withIdentifier: "DoughnutViewController") as! DoughnutViewController
+        let vc2 = storyboard?.instantiateViewController(withIdentifier: "OrderSuccessfulViewController") as! OrderSuccessfulViewController
         
-        //vc.giveaway = self.giveawaysLost[indexPath.row]
-        self.navigationController?.pushViewController(vc, animated: true)
+        
+
+        
+        // Create the alert controller
+        let alertController = UIAlertController(title: "Doughnut", message: "Would you like to add a doughnut to your order", preferredStyle: .alert)
+        
+        // Create the actions
+        let okAction = UIAlertAction(title: "Yes", style: UIAlertAction.Style.default) {
+            (action) in
+            print("yes pressed")
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        let cancelAction = UIAlertAction(title: "No", style: UIAlertAction.Style.default) { (action) in
+            print("no pressed")
+            self.navigationController?.pushViewController(vc2, animated: true)
+        }
+        
+        // Add the actions
+        alertController.addAction(cancelAction)
+        alertController.addAction(okAction)
+        
+        
+        // Present the controller
+        self.present(alertController, animated: true, completion: nil)
     }
     
     

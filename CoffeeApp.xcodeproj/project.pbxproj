@@ -17,6 +17,7 @@
 		9215BCAF22F1477F0063CCB4 /* LoadMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215BCAE22F1477F0063CCB4 /* LoadMoneyViewController.swift */; };
 		9215BCB122F147950063CCB4 /* LoadMoneyPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215BCB022F147950063CCB4 /* LoadMoneyPopupViewController.swift */; };
 		9218309422F7C2B500541280 /* SpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9218309322F7C2B500541280 /* SpecialViewController.swift */; };
+		92AAFB3722FA728B00019519 /* DoughnutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AAFB3622FA728A00019519 /* DoughnutViewController.swift */; };
 		92E33D7522F28F0D005E55F8 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E33D7422F28F0D005E55F8 /* OrderViewController.swift */; };
 		92E33D7722F28F1F005E55F8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E33D7622F28F1F005E55F8 /* HistoryViewController.swift */; };
 		92E33D7922F2940A005E55F8 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E33D7822F2940A005E55F8 /* OrderTableViewCell.swift */; };
@@ -58,6 +59,7 @@
 		9215BCAE22F1477F0063CCB4 /* LoadMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoneyViewController.swift; sourceTree = "<group>"; };
 		9215BCB022F147950063CCB4 /* LoadMoneyPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoneyPopupViewController.swift; sourceTree = "<group>"; };
 		9218309322F7C2B500541280 /* SpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialViewController.swift; sourceTree = "<group>"; };
+		92AAFB3622FA728A00019519 /* DoughnutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutViewController.swift; sourceTree = "<group>"; };
 		92E33D7422F28F0D005E55F8 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		92E33D7622F28F1F005E55F8 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		92E33D7822F2940A005E55F8 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				92E33D7A22F29BF1005E55F8 /* OrderSuccessfulViewController.swift */,
 				92E33D7C22F2A107005E55F8 /* HistoryTableViewCell.swift */,
 				9218309322F7C2B500541280 /* SpecialViewController.swift */,
+				92AAFB3622FA728A00019519 /* DoughnutViewController.swift */,
 			);
 			path = CoffeeApp;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				9215BCB122F147950063CCB4 /* LoadMoneyPopupViewController.swift in Sources */,
 				92E33D7B22F29BF1005E55F8 /* OrderSuccessfulViewController.swift in Sources */,
 				92E33D7522F28F0D005E55F8 /* OrderViewController.swift in Sources */,
+				92AAFB3722FA728B00019519 /* DoughnutViewController.swift in Sources */,
 				9218309422F7C2B500541280 /* SpecialViewController.swift in Sources */,
 				9215BCAF22F1477F0063CCB4 /* LoadMoneyViewController.swift in Sources */,
 				92E33D7922F2940A005E55F8 /* OrderTableViewCell.swift in Sources */,

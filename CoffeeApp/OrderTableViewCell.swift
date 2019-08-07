@@ -15,6 +15,7 @@ class OrderTableViewCell: UITableViewCell {
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var quantityTextField: UITextField!
 
+    @IBOutlet weak var coffeeImage: UIImageView!
     @IBOutlet weak var cellView: UIView!
     @IBOutlet weak var orderButton: UIButton!
     
