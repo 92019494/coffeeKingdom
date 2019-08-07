@@ -19,6 +19,10 @@ class SpecialViewController: UIViewController {
         orderButton.layer.borderWidth = 4
         orderButton.layer.borderColor = UIColor.brown.cgColor
         myImageView.layer.cornerRadius = 10
+        
+        let appearance = UITabBarItem.appearance()
+        let attributes = [NSAttributedString.Key.font:UIFont(name: "Helvetica", size: 16)]
+        appearance.setTitleTextAttributes(attributes, for: .normal)
     }
     
     
