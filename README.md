@@ -1,4 +1,5 @@
 # coffeeKingdom
+Coffee app made according to the client(tutors) requirements
 
 <img align="left" src="images/c1.png" width="250" height="440">
 <img align="left" src="images/c2.png" width="250" height="440">
